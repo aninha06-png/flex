@@ -1,0 +1,128 @@
+/* CONFIGURAÇÃO GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FUNDO DA PÁGINA */
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* CONTAINER PRINCIPAL */
+
+.container {
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #168de2;
+    color: white;
+    padding: 35px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ÁREA DO MAIN E SIDEBAR */
+
+.conteudo {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+/* MAIN */
+
+.main {
+    background-color: #20c76a;
+    flex: 3;
+    padding: 25px;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* TÍTULO MAIN */
+
+.main h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+/* ÁREA DOS ITENS */
+
+.itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* QUADRADOS */
+
+.item {
+    background-color: rgba(0, 100, 50, 0.4);
+    width: 110px;
+    height: 110px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+
+    border-radius: 12px;
+
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    background-color: #f02222;
+    color: white;
+
+    flex: 1;
+    padding: 25px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* TÍTULO SIDEBAR */
+
+.sidebar h2 {
+    font-size: 22px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #286be0;
+    color: white;
+
+    padding: 35px;
+
+    border-radius: 12px;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
